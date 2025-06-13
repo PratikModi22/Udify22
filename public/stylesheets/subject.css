@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    
+}
+.header
+{
+    width: 100%;
+    background-color:black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.logoimg{
+    padding-left: 5px;
+    color: white;
+    font-size: 25px;
+   
+}
+.search{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.search-bar{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+     overflow: hidden; 
+}
+.search-box
+{
+    width: 80%;
+    height: 40px;
+    border: none;
+    outline: none;
+    text-indent: 20px;
+    font-size: 16px;
+
+    
+}
+.search-img
+{
+    height: 20px;
+    transition: all;
+    transition-delay: 1s;
+}
+.search-img:hover
+{
+    cursor: pointer;
+}
+/*  movie css */
+.display
+{
+    background-color: rgb(230, 228, 228);
+    width: 100%;
+    padding: 50px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    column-gap: 5%;
+}
+.subject-card
+{
+    width: 20%;
+    height: 530px; 
+   border-radius: 10px;
+   border: 5px solid black;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.heading1{
+    
+    font-size: 45px;
+    font-weight: 600;
+    color:  rgb(105, 38, 38);
+    
+    
+}
+.button-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+    width: 100%;
+    row-gap: 10px;
+    
+}
+.button{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(105, 38, 38);
+    color: white;
+}
+.poster
+{
+    width: 100%;   
+    height: 200px;
+    object-position: center;
+    object-fit: center;
+}
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: black; 
+    position: absolute;
+     opacity: 0; 
+    transition: ease-in;
+    transition-delay: 0.1s;
+}
+.overlay:hover
+{
+     opacity: 1; 
+}
+.video{
+     width: 100%;
+    height: 50%; 
+    
+     
+}
+.details{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-sizing: border-box;
+
+}
